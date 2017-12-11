@@ -294,6 +294,9 @@
     border:1px solid transparent;
 }
 
+
+
+
 .clients-section{
     background-color: #f7941d;
 }
@@ -317,18 +320,65 @@
     position: relative;
 }
 .client-section-text i{
-    position: absolute;
-    left: 0;
+    display: inline-block;
+    float: left;
 }
-.client-section-text i:last-child{
-    right: 0;
+.client-section-text .I-tag-second{
+    float: right;
+}
+.client-section-article{
+    font-size: 15px;
+    font-family: 'lora', sans-serif;
+}
+.article-autor-first{
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: 'Karla-Regular';
+}
+.article-autor-second{
+    font-size: 15px;
+    font-family: 'Karla-Bold';
+    font-weight: bolder;
 }
 
+.bee-wax{
+    position: relative;
+}
 
+ .bee-wax-first-row{
+    position: relative;
+    margin:auto;
+}
+.bee-wax-second-row{
+    position: relative;
+    top:-10px;
+}
+.OuterShape{
+    width: 54px;
+    height: 60px;
+    overflow: hidden;
+    transform:rotate(120deg);
+    visibility: hidden;
+    margin:auto;
+    display: inline-block;
+}
+.InnerShape{
+    display: inline-block;
+    width:100%;
+    height: 100%;
+    transform: rotate(-60deg);
 
-
-
-
+    overflow: hidden;
+}
+.hexagon-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/hexagonBack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(-60deg);
+    visibility: visible;
+}
 @media (max-width:1200px){
     .banner-form form input{
         max-width: 250px;
