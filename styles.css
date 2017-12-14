@@ -295,8 +295,6 @@
 }
 
 
-
-
 .clients-section{
     background-color: #f7941d;
 }
@@ -379,6 +377,46 @@
     transform: rotate(-60deg);
     visibility: visible;
 }
+
+.articles {
+    border:1px solid gray;
+    height: 68px;
+    width: 260px;
+    position: relative;
+    text-align: center;
+}
+.article-header{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%);
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    color: #23282f;
+    font-weight: bolder;
+
+}
+.articles:after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 38px;
+    height: 2px;
+    background-color: #f7941d;
+    bottom:-1px;
+    left: 97px;
+}
+
+.Subheader{
+    position: absolute;
+    line-height: 20px;
+}
+
+
+
+
+
+
 @media (max-width:1200px){
     .banner-form form input{
         max-width: 250px;
