@@ -282,16 +282,16 @@
     margin-bottom:68px; 
 }
 .media .media-image{
-    filter: invert(100%);
+    filter: invert(800%);
     border:1px solid #fff;
     padding:10px;
     background-color: transparent;
-    transition:600ms;
+    transition:800ms;
 } 
 .media .media-image:hover{
     filter: invert(0);
     background-color: #29c2e1;
-    border:1px solid transparent;
+    border:1px solid green;
 }
 
 
