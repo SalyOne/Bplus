@@ -278,6 +278,7 @@
     font-size: 14px;
     margin-top: 30px;
 }
+
 .media{
     margin-bottom:68px; 
 }
@@ -285,8 +286,8 @@
     filter: invert(800%);
     border:1px solid #fff;
     padding:10px;
-    background-color: green;
-    transition:3000ms;
+    background-color: transparent;
+    transition:1000ms;
 } 
 .media .media-image:hover{
     filter: invert(0);
