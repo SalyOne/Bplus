@@ -278,15 +278,13 @@
     font-size: 14px;
     margin-top: 30px;
 }
-.media{
-    margin-bottom:68px; 
-}
+
 .media .media-image{
     filter: invert(800%);
     border:1px solid #fff;
     padding:10px;
     background-color: transparent;
-    transition:800ms;
+    transition:1000ms;
 } 
 .media .media-image:hover{
     filter: invert(0);
